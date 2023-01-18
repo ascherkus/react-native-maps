@@ -12,7 +12,6 @@
     "tscheck": "tsc --noEmit",
     "build": "tsc --project tsconfig.build.json",
     "test": "jest",
-    "prepare": "husky install",
     "release": "semantic-release",
     "bootstrap": "yarn --cwd example && yarn && (cd example && cd ios && pod install)"
   },
